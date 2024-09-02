@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Updates readme with sponsors
-        uses: JamesIves/github-sponsors-readme-action@1.0.5
+        uses: JamesIves/github-sponsors-readme-action@v1.5.1
         with:
           token: ${{ secrets.BOT_TOKEN || secrets.GITHUB_TOKEN }}
           file: 'README.md'
